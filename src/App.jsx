@@ -199,7 +199,7 @@ function Navbar({ active, setActive, theme, toggleTheme }) {
           </li>
         ))}
         <li>
-          <a href="/nivetha-portfolio/2026-03-21_Nivetha_2_page_Resume.pdf" download className="nav-resume-btn">
+          <a href="/portfolio/2026-03-21_Nivetha_2_page_Resume.pdf" download className="nav-resume-btn">
             <DownloadIcon /> Resume
           </a>
         </li>
@@ -243,7 +243,7 @@ function Home({ setActive }) {
         <div className="home-cta">
           <button className="cta-primary" onClick={() => setActive("Projects")}>View My Work</button>
           <button className="cta-outline" onClick={() => setActive("Contact")}>Get In Touch</button>
-          <a href="/nivetha-portfolio/2026-03-21_Nivetha_2_page_Resume.pdf" download className="cta-outline">
+          <a href="/portfolio/2026-03-21_Nivetha_2_page_Resume.pdf" download className="cta-outline">
             <DownloadIcon /> Download C
           </a>
         </div>
@@ -517,7 +517,7 @@ function Contact() {
           <div className="contact-item"><span>🐙</span><a href="https://github.com/nivethadhanakoti" target="_blank" rel="noreferrer">GitHub Profile</a></div>
           <div className="contact-item"><span>📍</span><span>Chennai, Tamil Nadu, India</span></div>
           <div className="availability-badge"><span className="avail-dot" />Open to Opportunities</div>
-          <a href="/nivetha-portfolio/2026-03-21_Nivetha_2_page_Resume.pdf" download className="download-resume-btn">
+          <a href="/portfolio/2026-03-21_Nivetha_2_page_Resume.pdf" download className="download-resume-btn">
             <DownloadIcon /> Download Resume
           </a>
         </div>

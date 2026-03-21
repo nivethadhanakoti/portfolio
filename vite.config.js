@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // If using a custom domain or username.github.io, set base: '/'
 export default defineConfig({
   plugins: [react()],
-  base: '/nivetha-portfolio/',
+  base: '/portfolio/',
 })
