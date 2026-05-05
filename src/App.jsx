@@ -244,7 +244,7 @@ function Home({ setActive }) {
           <button className="cta-primary" onClick={() => setActive("Projects")}>View My Work</button>
           <button className="cta-outline" onClick={() => setActive("Contact")}>Get In Touch</button>
           <a href="/portfolio/2026-03-21_Nivetha_2_page_Resume.pdf" download className="cta-outline">
-            <DownloadIcon /> Download C
+            <DownloadIcon /> Download CV
           </a>
         </div>
         <div className="home-social">
